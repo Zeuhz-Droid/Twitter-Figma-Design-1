@@ -65,8 +65,8 @@ body {
 header::before {
     content:"";
     position: absolute;
-    width: 150vw;
-    height: 150vh;
+    width: 100vw;
+    height: 100vh;
     left: -50%;
     top: -50%;
     z-index: -1;
@@ -194,6 +194,24 @@ header::before {
     transform: translateY(12%);
     justify-self: flex-end;
     z-index: 10;
+}
+
+@media screen and (max-width : 800px) {
+    .header {
+        overflow-x: scroll;
+    }
+
+    .header::-webkit-scrollbar {
+        display: none;
+    }
+
+    .header::before {
+        width: 120vh;
+    }
+
+    .header__photo {
+        transform: translateY(20%);
+    }
 }
 
 
