@@ -395,6 +395,11 @@ body {
        display: none;
    }
 
+   .header-wrapper {
+    display: grid;
+    grid-template-columns: minmax(min-content, 1fr);
+}
+
     .header__intro {
         gap: 3rem;
     }
