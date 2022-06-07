@@ -206,7 +206,7 @@ header::before {
     }
 
     .header::before {
-        width: 130vh;
+        width: 140vh;
     }
 
     .header__photo {
