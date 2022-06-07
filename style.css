@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Now-Alt-Bold';
-    src:url('/fonts/Now-Alt-Bold.ttf.woff') format('woff'),
-        url('/fonts/Now-Alt-Bold.ttf.svg#Now-Alt-Bold') format('svg'),
-        url('/fonts/Now-Alt-Bold.ttf.eot'),
+    src:url('fonts/Now-Alt-Bold.ttf.woff') format('woff'),
+        url('fonts/Now-Alt-Bold.ttf.svg#Now-Alt-Bold') format('svg'),
+        url('fonts/Now-Alt-Bold.ttf.eot'),
         url('Now-Alt-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
         font-weight: normal;
         font-style: normal;
