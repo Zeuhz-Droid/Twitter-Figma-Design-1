@@ -52,7 +52,7 @@ body {
     width: 80vw;
     height: 80vh;
     margin: 0 auto;
-    padding: 3rem 6rem;
+    padding: 3rem 8rem 3rem 10rem;
     border: 1px solid var(--border-color);
     /* background-color: var(--bg-color-dark); */
     position: relative;
